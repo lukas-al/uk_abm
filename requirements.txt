@@ -1,0 +1,32 @@
+# Core scientific computing packages
+numpy
+pandas
+scipy
+
+# Plotting and visualization
+matplotlib
+contourpy
+cycler
+fonttools
+kiwisolver
+packaging
+pillow
+pyparsing
+
+# Date handling
+python-dateutil
+pytz
+six
+tzdata
+
+# Black-IT calibration framework and dependencies
+black-it
+optuna
+scikit-learn
+joblib
+
+# Additional ML packages for samplers
+scikit-optimize
+
+# For Julia integration
+juliacall
