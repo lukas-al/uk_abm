@@ -10,7 +10,6 @@ The BeforeIT model is a sophisticated agent-based economic model developed by th
 - Use advanced optimization algorithms for parameter search
 - Visualize calibration progress and parameter space exploration
 - Compare model outputs with target data
-- Leverage direct Python-Julia integration for maximum performance
 
 ## Features
 
@@ -19,7 +18,6 @@ The BeforeIT model is a sophisticated agent-based economic model developed by th
 - **Comprehensive Visualization**: Automatic generation of calibration progress plots, parameter exploration charts, and model comparison graphs
 - **Efficient Julia Integration**: Direct Python-Julia communication via JuliaCall (no subprocess overhead)
 - **Extensible Design**: Easy to add new parameters, loss functions, or data sources
-- **High Performance**: Persistent Julia session with automatic type conversion
 
 ## Installation
 
@@ -161,13 +159,6 @@ jl.seval("import BeforeIT as Bit")
 model = jl.Bit.Model(parameters, initial_conditions)
 results = jl.Bit.ensemblerun(model, T, ensemble_size)
 ```
-
-**Performance Benefits:**
-- **~10x faster** than subprocess calls for repeated simulations
-- **Automatic type conversion** between Python NumPy arrays and Julia arrays
-- **Persistent Julia session** - no startup overhead for repeated calls
-- **Better error handling** with direct access to Julia stack traces
-- **Memory efficiency** - shared memory between Python and Julia when possible
 
 ## Calibrated Parameters
 

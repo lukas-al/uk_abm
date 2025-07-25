@@ -1,0 +1,17 @@
+BeforeIT Model Calibration Results
+========================================
+
+Target data source: synthetic
+Base parameters: AUSTRIA2010Q1
+Target data shape: (8, 25)
+Number of iterations: 3
+Total evaluations: 12
+
+Best loss: 3928496731879.27539062
+
+Best parameters:
+  tau_INC        : 0.340000
+  theta_UB       : 0.700000
+  psi            : 0.860000
+  mu             : 0.042000
+  theta_DIV      : 0.650000
