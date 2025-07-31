@@ -1,0 +1,5 @@
+---
+description: "marimo requires that each variable is defined in just one cell. This constraint enables reactive and reproducible execution, arbitrary cell reordering, seamless UI elements, execution as a script, and more. To fix, try merging cells with the mentioned cells or wrapping it in a function. Alternatively, rename variables to make them private to this cell by prefixing them with an underscore."
+globs: *.py
+alwaysApply: false
+---

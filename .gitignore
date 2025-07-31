@@ -1,9 +1,19 @@
 .venv/
 __pycache__/
-
+__marimo__/
 data/*
 plots/*
+calibration_results/*
 
+# All images
 *.png
+*.jpg
 
+# All docs
+*.pdf
+
+# Ignore the dev folder - these are locally cloned packages for particular reasons
+dev/*
+
+# Keep our gitkeeps!
 !.gitkeep
